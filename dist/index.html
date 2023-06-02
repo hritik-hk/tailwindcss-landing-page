@@ -10,18 +10,21 @@
 <body class="bg-gray-950 text-white">
 
     <!-- nav bar goes here -->
-    <nav class="m-5 flex md:justify-around">
+    <nav class="m-5 flex justify-between md:justify-around text-base tracking-wide font-semibold">
         <div>
             <img src="./img/logo.svg" alt="logo">
         </div>
-        <ul class="w-2/5 flex justify-around">
-            <li>Home</li>
-            <li>Reviews</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
+        <ul class="w-2/5 hidden md:flex justify-around">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">Job Portal</li>
+            <li class="cursor-pointer">About Us</li>
+            <li class="cursor-pointer">Contact Us</li>
         </ul>
-        <div>
+        <div class=" hidden md:block bg-slate-500 rounded-2xl w-32 p-3 cursor-pointer">
             Login/Signup
+        </div>
+        <div class="md:hidden">
+            <a href="#" class="text-3xl">&#8801;</a>
         </div>
     </nav>
 
@@ -36,6 +39,88 @@
         <div>
         <img class="w-[600px] rounded-lg" src="./img/hero_img.jpg" alt="hero-img">
         </div>
+    </div>
+
+    <!-- we are trusted by section goes here -->
+    <div class="mt-11 flex flex-col justify-center items-center">
+        <div><h1 class="text-3xl font-bold md:text-5xl">We are <span class="text-blue-700">trusted</span> by</h1></div>
+        <div class="mt-3 flex justify-around md:h-48" >
+            <div><img class="md:w-96" src="./img/elevationImage.png" alt="elevation"></div> 
+            <div><img class="md:w-96" src="./img/sequoiaImage.png" alt="sequoia"></div>
+            <div><img class="md:w-96" src="./img/ycImage.png" alt="y-combinator"></div>
+        </div>
+
+    </div>
+
+    <!-- achievement section goes here -->
+    <div  class="mt-10 flex flex-col justify-center items-center">
+        <div><h1 class="text-2xl font-bold md:text-6xl text-orange-600 tracking-wider">“Pure Hardwork, No Shortcuts!”</h1></div>
+        <div class="flex justify-around flex-wrap md:justify-around md:w-full md:mt-6">
+            <div class="p-5 flex flex-col justify-center items-center">
+                <img src="./img/books-icon.svg" alt="books-icon" >
+                <p class="font-semibold tracking-wide md:text-3xl md:m-2">600+</p>
+                <p class="font-semibold md:text-3xl" >Different Courses</p>
+            </div>
+            <div class="p-5 flex flex-col justify-center items-center">
+                <img src="./img/credit-card-icon.svg" alt="books-icon" >
+                <p class="font-semibold tracking-wide md:text-3xl md:m-2">10,000+</p>
+                <p class="font-semibold md:text-3xl" >Successful Transition</p>
+            </div>
+            <div class="p-5 flex flex-col justify-center items-center">
+                <img src="./img/student-icon.svg" alt="books-icon" >
+                <p class="font-semibold tracking-wide md:text-3xl md:m-2">7,00,000+</p>
+                <p class="font-semibold md:text-3xl" >Students Enrolled</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+
+
+    <!-- hall of fame section goes here -->
+    <div  class="mt-11 flex flex-col justify-center items-center">
+
+        <div><h1 class=" mt-5 mb-10 text-2xl font-bold md:text-6xl text-blue-600 tracking-wider">Hall of fame</h1></div>
+
+        <div class="flex justify-around flex-wrap md:justify-around md:w-full md:mt-6">
+            <div class=" mt-4 mb-4 p-2 md:p-6 bg-gray-800 rounded-xl flex flex-col justify-center items-center">
+                <div>
+                    <img src="./logo.png" alt="logo" class="rounded-full w-16 md:w-40">
+                </div>
+                        <p  class="mt-4 text-sm md:text-lg font-bold tracking-wide">AARAV GUPTA</p>
+                        <p   class="mt-2 text-sm md:text-lg font-bold tracking-wide">PLACED AT AMAZON</p>
+            </div>
+
+            <div class=" mt-4 mb-4  p-2 md:p-6  bg-gray-800 rounded-xl flex flex-col justify-center items-center">
+                <div>
+                    <img src="./logo.png" alt="logo" class="rounded-full w-16 md:w-40">
+                </div>
+                        <p  class="mt-4 text-sm md:text-lg font-bold tracking-wide">SARTHAK SINGH</p>
+                        <p   class="mt-2 text-sm md:text-lg font-bold tracking-wide">PLACED AT INFOSYS</p>
+            </div>
+
+            <div class="mt-4 mb-4  p-2 md:p-6  bg-gray-800 rounded-xl flex flex-col justify-center items-center">
+                <div>
+                    <img src="./logo.png" alt="logo" class="rounded-full w-16 md:w-40">
+                </div>
+                        <p  class="mt-4 text-sm md:text-lg font-bold tracking-wide">ANUKUL RAJ</p>
+                        <p   class="mt-2 text-sm md:text-lg font-bold tracking-wide">PLACED AT SAMSUNG</p>
+            </div>
+
+            <div class=" mt-4 mb-4  p-2 md:p-6 bg-gray-800 rounded-xl flex flex-col justify-center items-center">
+                <div>
+                    <img src="./logo.png" alt="logo" class="rounded-full w-16 md:w-40">
+                </div>
+                        <p  class="mt-4 text-sm md:text-lg font-bold tracking-wide">ANVI SAMANTHA</p>
+                        <p   class="mt-2 text-sm md:text-lg font-bold tracking-wide">PLACED IN GOOGLE</p>
+            </div>
+
+
+        </div>
+
+        
     </div>
 
     
